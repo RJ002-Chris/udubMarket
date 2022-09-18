@@ -1,0 +1,90 @@
+[
+    {
+        "itemName": "Dining Table",
+        "imgSrc": "../../img/table.jpg",
+        "itemDescription": "Used dining table, wood, minor chips and normal signs of usage. Pick up at the HUB.",
+        "itemDetails": "Lightly used wooden dining table. 96x48\", fits 6-8 people. Slight signs of wear but no major damage. Chairs included, but tabletop ornaments not included. Currently located at the HUB.",
+        "itemPrice": "$799",
+        "Seller": "John Smith",
+        "itemURL": "dining_table",
+        "availability": false,
+        "inCart" : false
+    },
+    {
+        "itemName": "Lounge Chair",
+        "imgSrc": "../../img/sus_chair.jpg",
+        "itemDescription": "Orange lounge chair with pillows, almost brand new. Located in second floor Maple Hall.",
+        "itemDetails": "Reddish orange lounge chair with headrest. Almost brand new, no signs of usage. Interesting and comfortable design, though a little suspicious looking. Currently located on the 2nd floor of Maple Hall.",
+        "itemPrice": "$169",
+        "Seller": "Ryu Ngammuang",
+        "itemURL": "lounge_chair",
+        "availability": false,
+        "inCart" : false
+    },
+    {
+        "itemName": "Gaming PC",
+        "imgSrc": "../../img/pc.webp",
+        "itemDescription": "RTX2080 GPU, bought in 2021. High-end specs, could run almost any game. Located in Trailside.",
+        "itemDetails": "iBUYPOWER Gaming PC, Element 926, Black. Intel Core i7-9700F CPU, NVIDIA RTX 2080 GPU, 16GB DDR4, 240GB SSD, 1TB HDD. Slightly used, but memory cleared. Currently located at Trailside apartments room #1234.",
+        "itemPrice": "$1699",
+        "Seller": "Christian Tsao",
+        "itemURL": "gaming_pc",
+        "availability": false,
+        "inCart" : false
+    },
+    {
+        "itemName": "Bird Lamp",
+        "imgSrc": "../../img/lamp.jpg",
+        "itemDescription": "Bird shaped table lamp for studying. Works perfectly, almost brand new condition. No signs of wear.",
+        "itemDetails": "Golden bird shaped table lamp. Metal and ceramic base. Almost brand new condition, so signs of wear and tear. A bit heavy, but durable. Bulbs not included. Currently located at Bridges apartments room #4321.",
+        "itemPrice": "$125",
+        "Seller": "Jane Doe",
+        "itemURL": "bird_lamp",
+        "availability": false,
+        "inCart" : false
+    },
+    {
+        "itemName": "Nike Shoes",
+        "imgSrc": "../../img/black-air-force.jpg",
+        "itemDescription": "Nike Air Force 1, Low, Triple Black. Size 10.5, almost brand new, barely worn.",
+        "itemDetails": "Nike Men's Air Force 1s, Low, Triple Black. Size 10.5 (W12). Slightly damaged soles, but otherwise no signs of wear. Currently located at Trailside apartments room #5678.",
+        "itemPrice": "$87.99",
+        "Seller": "Non Pronanun",
+        "itemURL": "nike_air_force_1",
+        "availability": false,
+        "inCart" : false
+    },
+    {
+        "itemName": "Fish Fear Me Hat",
+        "imgSrc": "../../img/hat.webp",
+        "itemDescription": "Funny 'Fish Fear Me' trucker hat. Almost brand new. No signs of wear.",
+        "itemDetails": "Funny green truck hat. \"Women fear me, fish fear me, men turn their eyes as I walk, ...\" text displayed. Slight signs of usage. Currently located on the 3rd floor of Bagley Hall.",
+        "itemPrice": "$18.55",
+        "Seller": "Non Pronouns",
+        "itemURL": "fish_fear_me_hat",
+        "availability": false,
+        "inCart" : false
+    },
+    {
+        "itemName": "Blue Sofa",
+        "imgSrc": "../../img/bad_sofa.webp",
+        "itemDescription": "Slightly used sofa, minor signs of wear and tear. Very comfy. Located at the Ave.",
+        "itemDetails": "Very new definitely not completely destroyed blue sofa. Minor signs of usage, very comfortable to sit on. Is definitely in 1 piece and absolutely does not have any yellow stains. Currently located at the Ave.",
+        "itemPrice": "$10.52",
+        "Seller": "Gus Amon",
+        "itemURL": "sofa",
+        "availability": false,
+        "inCart" : false
+    },
+    {
+        "itemName": "Calculator",
+        "imgSrc": "../../img/ti-nspire.jpg",
+        "itemDescription": "Texas Instruments Ti Nspire CX CAS Calculator. Case and accessory kit included.",
+        "itemDetails": "Texas Instruments Ti Nspire CX II CAS Graphing Calculator, Black. Guerrilla Zipper Case and Essential Graphing Calculator Accessory Kit included (includes pen, pencil, ruler, etc). Currently located at Cedar Apartments room #8765.",
+        "itemPrice": "$199",
+        "Seller": "Timothy Enspier",
+        "itemURL": "graphing_calculator",
+        "availability": false,
+        "inCart" : false
+    }
+]

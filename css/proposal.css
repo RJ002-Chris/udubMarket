@@ -1,0 +1,27 @@
+header {
+    font-weight: 300;
+    font-family: 'Montserrat', Tahoma, sans-serif;
+    text-align: center;
+    color:black;
+}
+
+h2 {
+    font-weight: 250;
+    font-family: 'Montserrat', Tahoma, sans-serif;
+    text-align: center;
+    color:black;
+}
+
+body {
+    background-color: white;
+}
+
+p {
+    margin-right: 150px;
+    margin-left: 150px;
+    padding: 0.5em;
+    font-size: 15px;
+    font-family: 'Montserrat', Tahoma, sans-serif;
+    color:black;
+    line-height: 150%;
+}

@@ -1,0 +1,290 @@
+header {
+  font-weight: 300;
+  font-family: 'Zen Maru Gothic' Arial, sans-serif;
+  text-align: left;
+  color: whitesmoke;
+  background-color: #4b2e83;
+  padding-top: 6rem;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-weight: 300;
+  font-family: 'Zen Maru Gothic' Arial, sans-serif;
+  text-align: left;
+  color: black;
+}
+
+body {
+  background-color: white;
+}
+
+main {
+  padding-top: 1rem;
+}
+
+p {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  padding: 0.5em;
+  font-size: 15px;
+  font-family: 'Zen Maru Gothic' Arial, sans-serif;
+  color:black;
+  line-height: 150%;
+}
+
+.site-title {
+  font-size: 3.5rem;
+}
+
+.motto {
+  color: whitesmoke;
+  font-size: 1.2rem;
+}
+
+.card-title {
+  text-align: left;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #513687;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: goldenrod;
+  color: whitesmoke;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+section {
+  padding: .5rem;
+  background-color: #4b2e83;
+  color: whitesmoke;
+}
+
+.comment {
+  color: whitesmoke;
+}
+
+.copyright {
+  text-align: right;
+}
+
+footer {
+  background-color: #513687;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Zen Maru Gothic' Arial, sans-serif;
+}
+
+footer p {
+  padding-top: 1rem;
+  color: white;
+  margin: 0;
+  line-height: 1.25;
+  font-family:'Zen Maru Gothic' Arial, sans-serif;
+}
+
+footer p:nth-last-of-type(1){
+  padding-top: 8px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 350px;
+  perspective: 1000px;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 95%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card-front {
+  background-color: white;
+  color: black;
+}
+
+.card-back {
+  background-color: white;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.flip-card p {
+  text-align: left;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1.35em;
+  padding-bottom: 20px;
+}
+
+.info {
+  background-color: white;
+  text-align: center;
+}
+
+.features {
+  background-color: white;
+  text-align: center;
+}
+
+.about {
+  text-align: center;
+  color:black;
+}
+
+.about-head {
+  text-align:left;
+  color:#4b2e83;
+}
+
+.form-section {
+  padding-top: 14px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.card-deck {
+  padding-bottom: 14px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 14px;
+}
+
+#card {
+  padding-bottom: 20px;
+}
+
+.listings-head {
+  font-size: 50px;
+  padding-left: 30px;
+}
+
+.input-group {
+  float: right;
+  padding-right:1rem;
+  width:500px;
+}
+
+.header-container {
+  background-image: url(../public/img/download.jpg);
+  background-size: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+
+#padding-b {
+  padding-bottom: 14px;
+}
+
+#itempad {
+  padding-top: 14px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 14px;
+}
+
+#padding-l {
+  padding-left: 19px;
+}
+
+#padding-t {
+  padding-top: 14px;
+}
+
+table {
+  width: 100%;
+  margin-right: auto;
+  border-collapse: collapse;
+  
+}
+
+th {
+  font-size: 18px;
+}
+
+th, td {
+  padding: 0.5em;
+  border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.button-container {
+  height: 50px;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.vert {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
